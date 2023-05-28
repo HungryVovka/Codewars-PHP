@@ -9,6 +9,7 @@
 // Courtesy of projecteuler.net (Problem 1)
 // -----------------------------------------------------------
 
+<?php
 function solution($number){
   $mult = 0;
   for ($i = 0; $i < $number; $i++){
@@ -24,3 +25,4 @@ function solution($number){
   }
   return $mult;
 }
+>
