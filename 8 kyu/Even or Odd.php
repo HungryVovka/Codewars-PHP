@@ -1,12 +1,11 @@
+<?php
 // -----------------------------------------------------------
 // Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 // -----------------------------------------------------------
 
-<?php
 function even_or_odd(int $n): string {
-  return ($n % 2 == 0) ? "Even" : "Odd";
+	return ($n % 2 == 0) ? "Even" : "Odd";
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -28,3 +27,4 @@ function even_or_odd(int $n): string {
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

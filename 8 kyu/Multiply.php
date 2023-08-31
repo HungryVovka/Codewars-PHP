@@ -1,8 +1,8 @@
+<?php
 // -----------------------------------------------------------
 // This code does not execute properly. Try to figure out why.
 // -----------------------------------------------------------
 
-<?php
 function solution($number){
 	$mult = 0;
 	for ($i = 0; $i < $number; $i++){
@@ -18,7 +18,6 @@ function solution($number){
 	}
 	return $mult;
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -40,3 +39,4 @@ function solution($number){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

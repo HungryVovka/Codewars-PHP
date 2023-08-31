@@ -1,3 +1,4 @@
+<?php
 // -----------------------------------------------------------
 // Complete the solution so that it reverses the string passed into it.
 // 
@@ -5,11 +6,9 @@
 // 'word'   =>  'drow'
 // -----------------------------------------------------------
 
-<?php
 function solution($str){
-  return strrev($str);
+	return strrev($str);
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -31,3 +30,4 @@ function solution($str){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

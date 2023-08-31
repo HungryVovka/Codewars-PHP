@@ -1,12 +1,11 @@
+<?php
 // -----------------------------------------------------------
 // Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 // -----------------------------------------------------------
 
-<?php
 function boolToWord($bool){
-  return $bool ? "Yes" : "No";
+	return $bool ? "Yes" : "No";
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -28,3 +27,4 @@ function boolToWord($bool){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

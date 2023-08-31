@@ -1,3 +1,4 @@
+<?php
 // -----------------------------------------------------------
 // We need a function that can transform a number (integer) into a string.
 // 
@@ -9,11 +10,9 @@
 // -100 --> "-100"
 // -----------------------------------------------------------
 
-<?php
 function numberToString($num){
-  return strval($num);
+	return strval($num);
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -35,3 +34,4 @@ function numberToString($num){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

@@ -1,3 +1,4 @@
+<?php
 // -----------------------------------------------------------
 // You get an array of numbers, return the sum of all of the positives ones.
 // 
@@ -6,17 +7,15 @@
 // Note: if there is nothing to sum, the sum is default to 0.
 // -----------------------------------------------------------
 
-<?php
 function positive_sum($arr){
-  $pos = array();
-  foreach ($arr as $a){
-    if ($a > 0){
-      array_push($pos, $a);
-    }
-  }
-  return array_sum($pos);
+	$pos = array();
+	foreach ($arr as $a){
+		if ($a > 0){
+			array_push($pos, $a);
+		}
+	}
+	return array_sum($pos);
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -38,3 +37,4 @@ function positive_sum($arr){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

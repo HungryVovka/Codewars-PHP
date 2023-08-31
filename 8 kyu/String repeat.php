@@ -1,3 +1,4 @@
+<?php
 // -----------------------------------------------------------
 // Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
 // 
@@ -6,11 +7,9 @@
 // 5, "Hello" -> "HelloHelloHelloHelloHello"
 // -----------------------------------------------------------
 
-<?php
 function repeatStr($n, $str){
-  return str_repeat($str, $n);
+	return str_repeat($str, $n);
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -32,3 +31,4 @@ function repeatStr($n, $str){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

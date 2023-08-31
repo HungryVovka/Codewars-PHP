@@ -1,3 +1,4 @@
+<?php
 // -----------------------------------------------------------
 // In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
 // 
@@ -12,11 +13,9 @@
 // Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
 // -----------------------------------------------------------
 
-<?php
 function makeNegative($num){
-  return $num > 0 ? -$num : $num;
+	return $num > 0 ? -$num : $num;
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -38,3 +37,4 @@ function makeNegative($num){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>

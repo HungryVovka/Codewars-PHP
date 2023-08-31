@@ -1,3 +1,4 @@
+<?php
 // -----------------------------------------------------------
 // Very simple, given an integer or a floating-point number, find its opposite.
 // 
@@ -8,11 +9,9 @@
 // -34: 34
 // -----------------------------------------------------------
 
-<?php
 function opposite($n){
-  return (0 - $n);
+	return (0 - $n);
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -34,3 +33,4 @@ function opposite($n){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>
