@@ -1,3 +1,4 @@
+<?php
 // -----------------------------------------------------------
 // If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 // 
@@ -9,7 +10,6 @@
 // Courtesy of projecteuler.net (Problem 1)
 // -----------------------------------------------------------
 
-<?php
 function solution($number){
 	$mult = 0;
 	for ($i = 0; $i < $number; $i++){
@@ -25,7 +25,6 @@ function solution($number){
 	}
 	return $mult;
 }
->
 
 // -----------------------------------------------------------
 // License
@@ -47,3 +46,4 @@ function solution($number){
 // You should have received a copy of the GNU General Public License v3.0
 // along with this code. If not, see http://www.gnu.org/licenses/
 // -----------------------------------------------------------
+>
